@@ -1,0 +1,99 @@
+/* app.css */
+
+/* Main container */
+.App {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2a5d8f;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #4178be;
+}
+
+/* Form inputs */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1.5px solid #a4b6d3;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #2a5d8f;
+  outline: none;
+  background-color: #f6faff;
+  box-shadow: 0 0 5px rgba(42, 93, 143, 0.3);
+}
+
+/* Submit button */
+form button {
+  background-color: #2a5d8f;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.25s ease;
+}
+
+form button:hover {
+  background-color: #1f4670;
+}
+
+/* Session list */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: #e6f0fa;
+  border-left: 6px solid #4178be;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #1b3a5a;
+  transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #d0e1fb;
+}
+
+/* Session text */
+ul li b {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2a5d8f;
+}
+
+ul li p {
+  margin: 8px 0 0 0;
+  font-style: italic;
+  color: #555;
+  white-space: pre-wrap; /* keep newlines in notes */
+}
