@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+This is a React application that interacts with a backend server running locally on http://localhost:8000. To fully test all features, make sure you have the backend server running on your machine before starting the React app.
+
 In the project directory, you can run:
 
 ### `npm start`
